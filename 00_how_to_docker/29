@@ -1,0 +1,3 @@
+docker service ps marines
+
+#https://blog.codeship.com/running-services-within-docker-swarm/
