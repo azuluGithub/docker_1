@@ -1,1 +1,10 @@
 docker volume create --name hatchery
+
+#----------------------------- NOTES -------------------------------
+#docker volume create => create a volume
+#--name => Specify volume name
+#-------------------------------------------------------------------
+
+#----------------------------- REF ---------------------------------
+#https://docs.docker.com/engine/reference/commandline/volume_create/
+#-------------------------------------------------------------------

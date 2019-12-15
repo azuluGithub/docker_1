@@ -1,1 +1,9 @@
 docker pull hello-world
+
+#---------------------------------- NOTES ----------------------------------
+#To download a particular image, or set of images (i.e., a repository), use docker pull. If no tag is provided, Docker Engine uses the :latest tag as a default
+#---------------------------------------------------------------------------
+
+#------------------------------------ REF ----------------------------------
+#https://docs.docker.com/engine/reference/commandline/pull/
+#---------------------------------------------------------------------------

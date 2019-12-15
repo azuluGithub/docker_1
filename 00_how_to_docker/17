@@ -1,1 +1,13 @@
 docker ps
+
+#------------------------ NOTES ---------------------------------
+#docker ps => shows running containers.
+#docker ps -a => shows all containers
+#docker container ls => list containers
+#docker container ls -a => shows all containers
+#----------------------------------------------------------------
+
+#------------------------ REF -----------------------------------
+#https://docs.docker.com/engine/reference/commandline/ps/
+#https://docs.docker.com/engine/reference/commandline/container_ls/
+#----------------------------------------------------------------

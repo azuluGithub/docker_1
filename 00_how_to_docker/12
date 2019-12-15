@@ -1,1 +1,15 @@
 docker run --name=spawning-pool --restart=on-failure -v hatchery:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -d mysql:8.0.1
+
+#------------------------------ NOTES ----------------------------------
+#docker run -d mysql => running mysql container as background task
+#spawning-pool => name you want to assign to the container
+#-e => environmental variables
+#MYSQL_ROOT_PASSWORD => This variable is mandatory and specifies the password that will be set for the MySQL root
+#MYSQL_DATABASE => This variable is optional and allows you to specify the name of a database to be created
+#--restart=on-failure => Restart the container if it exits due to an error
+#-v /my/own/datadir:/var/lib/mysql => mounts the /my/own/datadir directory from the underlying host system as /var/lib/mysql inside the container, where MySQL by default will write its data files.
+#-----------------------------------------------------------------------
+
+#------------------------------ REF ------------------------------------
+#https://hub.docker.com/_/mysql
+#-----------------------------------------------------------------------

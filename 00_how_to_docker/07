@@ -1,1 +1,10 @@
-docker inspect --format '{{.NetworkSettings.IPAddress}}' overload
+docker inspect -f '{{.NetworkSettings.IPAddress}}' overload
+
+#---------------------------------- NOTES -------------------------------
+#docker inspect container_id/name => print detailed information about your Docker container including its internal IP address
+#------------------------------------------------------------------------
+
+#---------------------------------- REF ---------------------------------
+#https://stackoverflow.com/questions/43692961/how-to-get-ip-address-of-running-docker-container
+#https://linuxconfig.org/how-to-retrieve-docker-container-s-internal-ip-address
+#------------------------------------------------------------------------

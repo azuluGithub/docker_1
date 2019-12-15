@@ -1,1 +1,13 @@
 docker run -it --rm alpine /bin/sh
+
+#------------------------- NOTES ----------------------------
+#docker run alpine /bin/sh => running a shell/terminal from an alpine container
+#-it => creates an interactive shell in the container
+#--rm =>  Automatically remove the container when it exits
+#------------------------------------------------------------
+
+#--------------------------- REF ----------------------------
+#https://docs.docker.com/engine/reference/commandline/run/
+#https://docs.docker.com/engine/reference/run/
+#https://stackoverflow.com/questions/35689628/starting-a-shell-in-the-docker-alpine-container/43564198#43564198
+#------------------------------------------------------------

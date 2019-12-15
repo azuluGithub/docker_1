@@ -1,0 +1,17 @@
+apt-get update
+apt-get upgrade -y
+apt-get install -y build-essential git
+
+#----------------------------- NOTES --------------------------------
+#docker run -it --rm debian => is run outside the container (you should only specify the commands to be run directly in the container)
+#apt-get => command-line for handling packages
+#update => updates packages to their newest versions
+#upgrade => install the newest versions of all packages currently installed
+#build-essential => contains a list of packages which are essential for building Ubuntu packages including gcc compiler
+#-y => Automatic yes to prompts. Assume "yes" as answer to all prompts and run non-interactively
+#--------------------------------------------------------------------
+
+#------------------------------ REF ---------------------------------
+#https://linux.die.net/man/8/apt-get
+#https://help.ubuntu.com/community/InstallingCompilers
+#--------------------------------------------------------------------
