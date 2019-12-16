@@ -1,3 +1,9 @@
 docker rm --force $(docker ps -a -q)
 
+#------------------------------------------------ NOTES ------------------------------------------
+#This command will delete all stopped containers. The command docker ps -a -q will return all existing container IDs and pass them to the rm command which will delete them
+#-------------------------------------------------------------------------------------------------
+
+#------------------------------------------------ REF --------------------------------------------
 #https://docs.docker.com/engine/reference/commandline/rm/
+#-------------------------------------------------------------------------------------------------

@@ -1,1 +1,9 @@
 docker network create -d overlay overmind
+
+#--------------------------------- NOTES ------------------------------------
+#-d => driver to manage the Network (overlay). default network is bridge if driver is not mentioned
+#----------------------------------------------------------------------------
+
+#--------------------------------- REF --------------------------------------
+#https://docs.docker.com/engine/reference/commandline/network_create/
+#----------------------------------------------------------------------------

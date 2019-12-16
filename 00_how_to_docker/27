@@ -1,0 +1,11 @@
+docker service logs -f $(docker service ps engineering-bay -f "name=engineering-bay.1" -q)
+
+#---------------------------------- NOTES --------------------------------
+#we first filter (-f) matches on task names,
+#then Fetch the logs of a service or task
+#-------------------------------------------------------------------------
+
+#---------------------------------- REF ----------------------------------
+#https://docs.docker.com/engine/reference/commandline/service_ps/
+#https://docs.docker.com/engine/reference/commandline/service_logs/
+#-------------------------------------------------------------------------

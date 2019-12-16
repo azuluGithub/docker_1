@@ -1,1 +1,10 @@
 docker service create -d --network overmind --name marines --replicas 2 -e OC_USERNAME=user -e OC_PASSWD=password 42school/marine-squad
+
+#--------------------------------- NOTES ------------------------------------
+#With Docker Swarm Mode, a service is a long-running Docker container that can be deployed to any node worker.
+#A replicated service is a Docker Swarm service that has a specified number of replicas running.
+#----------------------------------------------------------------------------
+
+#--------------------------------- REF --------------------------------------
+#https://blog.codeship.com/running-services-within-docker-swarm/
+#---------------------------------------------------------------------------
