@@ -1,1 +1,12 @@
-docker run -d --name roach-wardern -p 8081:80 --link spawning-pool:db phpmyadmin/phpmyadmin 
+docker run --name roach-warden -d --link spawning-pool:db -p 8081:80 phpmyadmin/phpmyadmin
+
+#-------------------------------------- NOTES ----------------------------------
+#docker run -d phpmyadmin => launching phpmyadmin container (named roach-warden) in detached mode
+#-p host port: container port => binding container port to host port
+#--link => is sourcecontainername:containeraliasname. The containeraliasname could be any name of your choice.
+#-------------------------------------------------------------------------------
+
+#-------------------------------------- REF ------------------------------------
+#https://hub.docker.com/r/phpmyadmin/phpmyadmin/
+#https://rominirani.com/docker-tutorial-series-part-8-linking-containers-69a4e5bf50fb
+#-------------------------------------------------------------------------------

@@ -1,1 +1,20 @@
 docker-machine create --driver virtualbox Aiur
+
+#-------------------------------- NOTES ------------------------------------
+#virtual machine => an operating system capable of running applications like a separate computer meaning you can run other operating system on a different operating system e.g mac on linux or windows
+#
+#virtualbox => platform that allows you to run virtual machines (multiple operating systems)
+#
+#docker machine => a tool that allows you to install docker and virtual machine. You can use docker-machine commands to run a virtual machine and you can configure docker-machine env variables to inorder to use docker commands
+#
+#docker => a tool which uses containers which makes it easy to create, run and deploy apps and allows packaging of libraries and dependancies which ensures that the app run the same everywhere (With Docker Machine, your Docker engine is running in a VM, which is effectively a remote machine, so your local CLI needs to be configured to connect to it)
+#----------------------------------------------------------------------------
+
+#--------------------------------------- REF --------------------------------
+#https://docs.docker.com/machine/overview/
+#https://www.techopedia.com/definition/4805/virtual-machine-vm
+#https://www.virtualbox.org/manual/ch01.html
+#https://opensource.com/resources/what-docker
+#https://stackoverflow.com/questions/40038572/eval-docker-machine-env-default
+#-----------------------------------------------------------------------------
+

@@ -1,1 +1,12 @@
 docker run -d --name lair -p 8080:80 --link spawning-pool:mysql wordpress
+
+#-------------------------------- NOTES --------------------------------------
+#docker run -d wordpress => launching wordpress container (named lair) in detached mode
+#-p host port: container port => binding container port to host port
+#--link => linking docker containers, e.g webserver to database server
+#-----------------------------------------------------------------------------
+
+#-------------------------------- REF ----------------------------------------
+#https://hub.docker.com/_/wordpress
+#https://rominirani.com/docker-tutorial-series-part-8-linking-containers-69a4e5bf50fb
+#-----------------------------------------------------------------------------

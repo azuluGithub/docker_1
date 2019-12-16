@@ -1,1 +1,10 @@
 docker inspect -f '{{.Config.Env}}' spawning-pool
+
+#-------------------------------- NOTES -------------------------------------
+#How to get ENV variable when doing Docker Inspect
+#docker inspect container_id/name => print detailed information about your Docker container including its internal IP address
+#----------------------------------------------------------------------------
+
+#-------------------------------- REF ---------------------------------------
+#https://stackoverflow.com/questions/30342796/how-to-get-env-variable-when-doing-docker-inspect/30353018#30353018
+#----------------------------------------------------------------------------
