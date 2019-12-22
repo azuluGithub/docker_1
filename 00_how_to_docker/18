@@ -1,4 +1,4 @@
-docker restart overload
+docker restart overlord
 
 #----------------------------- NOTES -----------------------------
 #Restart one or more containers
